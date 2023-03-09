@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    background-image: url(../imagem/plano\ de\ fundo.jpeg);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    width: 100%;
+}
+.card {
+    background-color: #ffffff80;
+    padding: 40px;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    border-radius: 4%;
+    width: 400px;
+}
+h1 {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    font-weight: bold;
+    font-size: 40px;
+}
+.label-float input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    padding: 5px 5px;
+    border-bottom: 2px solid rgb(132, 0, 255);
+    background: transparent;
+    transition: all .3s ease-out;
+    font-size: 18px;
+    min-width: 180px;
+}
+label {
+    font-size: 20px;
+}
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus {
+    border-bottom: 2px solid rgb(48, 48, 221);
+}
+input {
+    margin-top: 20px;
+}
+.label-float label {
+    position: absolute;
+    pointer-events: none; 
+    color: rgb(132, 0, 255);
+    font-weight: bold; 
+    transition: all .3s ease-out; 
+    top: 0;
+   left: 0;
+}
+button {
+    padding: 10px;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(132, 0, 255);
+    outline: none;
+    border-color: rgb(132, 0, 255);
+    cursor: pointer;
+}
+button:hover {
+    background-color: #272262;
+    color: #fff;
+    transition: all .5s ease-out;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+p {
+    text-align: center;
+    color: rgb(132, 0, 255);
+    margin-top: 15px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: rgb(132, 0, 255);
+}
+a:hover {
+    color: #2111d4;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(132, 0, 255);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div>
+                <h1>Cadastrar</h1>
+            </div>
+            <div class="label-float">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="">
+            </div>
+            <div class="label-float">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" placeholder="">
+            </div>
+            <div class="label-float">
+                <label for="senha">Senha</label>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                <input type="password" id="senha" placeholder="">
+            </div>
+            <div class="label-float">
+                <label for="confirmsenha">Confirmar Senha</label>
+                <i id="verConfirmsenha" class="fa fa-eye" aria-hidden="true"></i>
+                <input type="password" id="confirmSenha" placeholder="">
+            </div>
+            <div class="justify-center">
+                <button>Cadastrar</button>
+            </div>
+            <p>Não tem uma conta?
+                <a href="">Cadastra-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="src/js/login.js"></script>
+</body>
+</html>
